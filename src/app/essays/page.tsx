@@ -1,4 +1,17 @@
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Esai Saya - Ahmad Nana Maingga",
+  description: "Kumpulan esai yang saya tulis tentang teknologi, pemrograman, dan produktivitas.",
+  openGraph: {
+    title: "Esai Saya - Ahmad Nana Maingga",
+    description: "Baca berbagai esai saya tentang pengembangan web, IoT, dan cloud computing.",
+    url: "https://example.com/essays",
+    images: ["/images/essays-preview.png"],
+    type: "article",
+  },
+};
 
 const essays = [
   {

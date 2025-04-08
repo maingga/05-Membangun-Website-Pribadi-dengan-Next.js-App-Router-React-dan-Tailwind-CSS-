@@ -1,4 +1,17 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Proyek Saya - Ahmad Nana Maingga",
+  description: "Kumpulan proyek yang telah saya kerjakan dalam pengembangan web, IoT, dan cloud computing.",
+  openGraph: {
+    title: "Proyek Saya - Ahmad Nana Maingga",
+    description: "Berbagai proyek yang telah saya kembangkan di bidang web dan IoT.",
+    url: "https://example.com/projects",
+    images: ["/images/projects-preview.png"],
+    type: "website",
+  },
+};
 
 const projects = [
   {
