@@ -13,3 +13,9 @@ Berikut adalah screenshot dari aplikasi:
 
 ### Screenshot 3
 ![Screenshot 3](public/Screenshot3.png)
+
+### Screenshot 4
+![Screenshot 4](public/Screenshot4.png)
+
+### Screenshot 5
+![Screenshot 5](public/Screenshot5.png)
